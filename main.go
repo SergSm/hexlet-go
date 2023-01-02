@@ -1,8 +1,7 @@
 package main 
 
 import (
-	greetingv1 "./greeting" // Относительный импорт
-	greetingv2 "./greeting/v2" // Относительный импорт
+	"./greeting" // Относительный импорт
 	"fmt" 
 )
 
@@ -16,5 +15,8 @@ func main() {
 	// output:
 	//./main.go:14:23: greeting not exported by package greeting
 
-	fmt.Println("First greet", greetingv1.Get(), "\n", "Second greet", greetingv2.Get())
+	// Aliases example:
+	//fmt.Println("First greet", greetingv1.Get(), "\n", "Second greet", greetingv2.Get())
+
+	fmt.Println(greeting.Hello())
 }
