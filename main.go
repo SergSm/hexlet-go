@@ -9,5 +9,5 @@ func main() {
 	logrus.Println("hello1")
 	color.Cyan("this is Cyan color")
 	color.Magenta("this is Magenta color")
-	color.Magenta("haha 1.1.0")
+	color.Magenta("haha v2.0.0")
 }

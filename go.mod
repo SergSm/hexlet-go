@@ -1,4 +1,4 @@
-module github.com/SergSm/hexlet-go
+module github.com/SergSm/hexlet-go/v2
 
 go 1.19
 
